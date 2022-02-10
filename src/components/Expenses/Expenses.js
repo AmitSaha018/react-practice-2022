@@ -9,7 +9,7 @@ const Expenses = (props) => {
   const [filteredYear, setfilteredYear] = useState("2020");
   // const [items, setItems] = useState(props.items)
   const filterChangeHandler = (selectedYear) => {
-    console.log(selectedYear);
+    // console.log(selectedYear);
     setfilteredYear(selectedYear);
     // setItems(items.filter((item) => item.date.getFullYear().toString() !== selectedYear))
   };
